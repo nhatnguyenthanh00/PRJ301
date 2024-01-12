@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>CMS DEMO</title>
+        <style>
+            #main{
+                border: 1px solid black;
+            }
+            #logo{          
+                height: 70px;
+                float: left;
+            }
+            #login{
+                height: 50px;
+                font-size: 150%;
+                text-align: right;
+            }
+            #login{
+                padding-top:  20px;
+            }
+          
+            #menu{
+                background-image: url(images/bg_image.jpg) ;
+                height : 300px;
+                background-position: center center;
+                text-align: center;
+                padding-top: 200px;
+            }
+/*            
+            table.main #footer1{
+                background:green;
+                width:100%;
+                height:15%;
+                font-size:25;
+            }*/
+
+        </style>
+    </head>
+    <body>
+        <div class='main'>
+            <div id='head'>
+                <div id='logo'><img src='images/logo.png' ></div>
+                <div id='login'>YOU ARE NOT LOGGED IN.(<a href="menu_login.jsp" style="color: red; text-decoration: none">LOG IN)</a></div>
+
+            </div>
+
+            <div id='menu'>
+                
+                    <b style="color: white;font-size: 300%">FPT EDUCATION</b>
+                    <h3 style="color: whitesmoke">COURSE MANAGEMENT SYSTEM</h3>
+                    <form action='menu_login.jsp' method='get'>
+                        <input type='submit' value='Learn more' style="color: black;background: red">
+                    </form>
+                    
+                
+                
+            </div>
+
+            <div id='footer1'>
+                <div align='center'>@Copyright by Nguyen Thanh Nhat</div>	
+            </div>
+        </div>
+    </body>
+</html>
